@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on mick的博客</title>
-    <link>mick.wtf/blog/</link>
+    <link>/blog/</link>
     <description>Recent content in Blogs on mick的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="mick.wtf/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>今天把域名用上</title>
-      <link>mick.wtf/blog/1.html/</link>
+      <link>/blog/1.html/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>mick.wtf/blog/1.html/</guid>
+      <guid>/blog/1.html/</guid>
       <description>博客上传到github，并且绑定域名：mick.wtf 果然是个骚包的域名（博主）</description>
     </item>
     
     <item>
       <title>测试自动部署</title>
-      <link>mick.wtf/blog/1.html/</link>
+      <link>/blog/1.html/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>mick.wtf/blog/1.html/</guid>
+      <guid>/blog/1.html/</guid>
       <description>博客上传到github，自动部署到page</description>
     </item>
     
     <item>
       <title>测试自动部署2</title>
-      <link>mick.wtf/blog/1.html/</link>
+      <link>/blog/1.html/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>mick.wtf/blog/1.html/</guid>
+      <guid>/blog/1.html/</guid>
       <description>博客上传到github，自动部署到page</description>
     </item>
     
     <item>
       <title>第3次测试</title>
-      <link>mick.wtf/blog/1.html/</link>
+      <link>/blog/1.html/</link>
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>mick.wtf/blog/1.html/</guid>
+      <guid>/blog/1.html/</guid>
       <description>第3次测试</description>
     </item>
     
     <item>
       <title>hello, world</title>
-      <link>mick.wtf/blog/1.html/</link>
+      <link>/blog/1.html/</link>
       <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>mick.wtf/blog/1.html/</guid>
+      <guid>/blog/1.html/</guid>
       <description>我的博客正式建立。 这是我的第一个博客，感谢免费提供开源模板的大神： 子舒 愿世界和平。</description>
     </item>
     

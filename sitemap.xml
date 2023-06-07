@@ -2,45 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>mick.wtf/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/</loc>
+    <loc>/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/blog/1.html/</loc>
+    <loc>/blog/1.html/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/blog/1.html/</loc>
+    <loc>/blog/1.html/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/blog/1.html/</loc>
+    <loc>/blog/1.html/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/blog/1.html/</loc>
+    <loc>/blog/1.html/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2023-06-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/blog/1.html/</loc>
+    <loc>/blog/1.html/</loc>
     <lastmod>2023-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>mick.wtf/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>mick.wtf/lab/</loc>
+    <loc>/lab/</loc>
   </url><url>
-    <loc>mick.wtf/search/</loc>
+    <loc>/search/</loc>
   </url><url>
-    <loc>mick.wtf/message/</loc>
+    <loc>/message/</loc>
   </url>
 </urlset>
