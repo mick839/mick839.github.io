@@ -20,9 +20,9 @@
 "@id": ""
 },
 "articleSection" : "blog",
-"name" : "成功自动部署！",
-"headline" : "成功自动部署！",
-"description" : "1、博客上传到github，并且绑定域名 静态博客仓库：https:\/\/github.com\/mick839\/mick839.github.io hugo-blog文件更新仓库：https:\/\/githu",
+"name" : "hello, world",
+"headline" : "hello, world",
+"description" : "我的博客正式建立。 这是我的第一个博客，感谢免费提供开源模板的大神： 子舒 愿世界和平。",
 "inLanguage" : "en-US",
 "author" : "",
 "creator" : "",
@@ -30,16 +30,16 @@
 "accountablePerson" : "",
 "copyrightHolder" : "",
 "copyrightYear" : "2023",
-"datePublished": "2023-06-07 00:00:00 \u002b0000 UTC",
-"dateModified" : "2023-06-07 00:00:00 \u002b0000 UTC",
+"datePublished": "2023-06-06 00:00:00 \u002b0000 UTC",
+"dateModified" : "2023-06-06 00:00:00 \u002b0000 UTC",
 "url" : "\/blog\/1.html\/",
 "keywords" : [ "随笔", ]
 }
-</script><title>成功自动部署！@mick</title>
-<meta property="og:title" content="成功自动部署！" />
+</script><title>hello, world@mick</title>
+<meta property="og:title" content="hello, world" />
 <meta property="og:type" content="article" />
-<meta property="og:description" content="1、博客上传到github，并且绑定域名 静态博客仓库：https://github.com/mick839/mick839.github.io hugo-blog文件更新仓库：https://githu" />
-<meta name="description" content="1、博客上传到github，并且绑定域名 静态博客仓库：https://github.com/mick839/mick839.github.io hugo-blog文件更新仓库：https://githu" />
+<meta property="og:description" content="我的博客正式建立。 这是我的第一个博客，感谢免费提供开源模板的大神： 子舒 愿世界和平。" />
+<meta name="description" content="我的博客正式建立。 这是我的第一个博客，感谢免费提供开源模板的大神： 子舒 愿世界和平。" />
 <meta property="og:locale" content="en-us" /><meta property="og:image" content="https://cdn.icon-icons.com/icons2/2622/PNG/512/lemon_icon_158326.png" />
 
 <link rel="stylesheet" href="/css/github-markdown.css">
@@ -90,87 +90,22 @@
     <main class="main" id="pjax-container">
 
 <section>
-  <div class="single-title">成功自动部署！</div>
+  <div class="single-title">hello, world</div>
   
   
-  <time class="single-date" datetime=" 2023-06-07 00:00:00 UTC">
-    2023年06月07日
+  <time class="single-date" datetime=" 2023-06-06 00:00:00 UTC">
+    2023年06月06日
   </time>
   
   
 
-  <nav id="TableOfContents">
-  <ul>
-    <li><a href="#1博客上传到github并且绑定域名">1、博客上传到github，并且绑定域名</a></li>
-    <li><a href="#2开启自动部署步骤如下">2、开启自动部署，步骤如下：</a>
-      <ul>
-        <li><a href="#1本地更新文件">（1）本地更新文件</a></li>
-        <li><a href="#2push到github">（2）push到github</a></li>
-      </ul>
-    </li>
-    <li><a href="#3鸣谢">3、鸣谢~</a></li>
-  </ul>
-</nav>
+  <nav id="TableOfContents"></nav>
   <div class="post-content markdown-body" id="post-content">
     
-    <h2 id="1博客上传到github并且绑定域名">1、博客上传到github，并且绑定域名</h2>
-<p>静态博客仓库：https://github.com/mick839/mick839.github.io</p>
-<p>hugo-blog文件更新仓库：https://github.com/mick839/hugo-blog</p>
-<p>DNS解析：Cloudflare</p>
-<p>CNAME：mick.wtf</p>
-<p>yml文件如下：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>name<span style="color:#000;font-weight:bold">:</span> deploy
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>on<span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>    push<span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>    workflow_dispatch<span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>    schedule<span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a61717;background-color:#e3d2d2">#</span> Runs everyday at <span style="color:#099">8</span><span style="color:#000;font-weight:bold">:</span><span style="color:#099">00</span> AM
-</span></span><span style="display:flex;"><span>        <span style="color:#000;font-weight:bold">-</span> cron<span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#34;0 8 * * *&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>jobs<span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>    build<span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>        runs<span style="color:#000;font-weight:bold">-</span>on<span style="color:#000;font-weight:bold">:</span> ubuntu<span style="color:#000;font-weight:bold">-</span>latest
-</span></span><span style="display:flex;"><span>        steps<span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">-</span> name<span style="color:#000;font-weight:bold">:</span> Checkout
-</span></span><span style="display:flex;"><span>              uses<span style="color:#000;font-weight:bold">:</span> actions<span style="color:#000;font-weight:bold">/</span>checkout<span style="color:#a61717;background-color:#e3d2d2">@</span>v2
-</span></span><span style="display:flex;"><span>              <span style="color:#000;font-weight:bold">with</span><span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>                  submodules<span style="color:#000;font-weight:bold">:</span> <span style="color:#000;font-weight:bold">true</span>
-</span></span><span style="display:flex;"><span>                  fetch<span style="color:#000;font-weight:bold">-</span>depth<span style="color:#000;font-weight:bold">:</span> <span style="color:#099">0</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">-</span> name<span style="color:#000;font-weight:bold">:</span> Setup Hugo
-</span></span><span style="display:flex;"><span>              uses<span style="color:#000;font-weight:bold">:</span> peaceiris<span style="color:#000;font-weight:bold">/</span>actions<span style="color:#000;font-weight:bold">-</span>hugo<span style="color:#a61717;background-color:#e3d2d2">@</span>v2
-</span></span><span style="display:flex;"><span>              <span style="color:#000;font-weight:bold">with</span><span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>                  hugo<span style="color:#000;font-weight:bold">-</span>version<span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#34;latest&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">-</span> name<span style="color:#000;font-weight:bold">:</span> Build Web
-</span></span><span style="display:flex;"><span>              run<span style="color:#000;font-weight:bold">:</span> hugo
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>            <span style="color:#000;font-weight:bold">-</span> name<span style="color:#000;font-weight:bold">:</span> Deploy Web
-</span></span><span style="display:flex;"><span>              uses<span style="color:#000;font-weight:bold">:</span> peaceiris<span style="color:#000;font-weight:bold">/</span>actions<span style="color:#000;font-weight:bold">-</span>gh<span style="color:#000;font-weight:bold">-</span>pages<span style="color:#a61717;background-color:#e3d2d2">@</span>v3
-</span></span><span style="display:flex;"><span>              <span style="color:#000;font-weight:bold">with</span><span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>                  PERSONAL_TOKEN<span style="color:#000;font-weight:bold">:</span> ${{ secrets.PERSONAL_TOKEN }}
-</span></span><span style="display:flex;"><span>                  EXTERNAL_REPOSITORY<span style="color:#000;font-weight:bold">:</span> mick839<span style="color:#000;font-weight:bold">/</span>mick839.github.io
-</span></span><span style="display:flex;"><span>                  PUBLISH_BRANCH<span style="color:#000;font-weight:bold">:</span> master
-</span></span><span style="display:flex;"><span>                  PUBLISH_DIR<span style="color:#000;font-weight:bold">:</span> .<span style="color:#000;font-weight:bold">/</span><span style="color:#000;font-weight:bold">public</span>
-</span></span><span style="display:flex;"><span>                  commit_message<span style="color:#000;font-weight:bold">:</span> ${{ github.event.head_commit.message }}
-</span></span><span style="display:flex;"><span>                  cname<span style="color:#000;font-weight:bold">:</span> mick.wtf
-</span></span></code></pre></div><h2 id="2开启自动部署步骤如下">2、开启自动部署，步骤如下：</h2>
-<h3 id="1本地更新文件">（1）本地更新文件</h3>
-<p>在本地修改内容，如增加、修改博客，或修改前端代码</p>
-<h3 id="2push到github">（2）push到github</h3>
-<p>所需代码如下：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span>cd d<span style="color:#000;font-weight:bold">:</span><span style="color:#a61717;background-color:#e3d2d2">/hugo-blog</span>
-</span></span><span style="display:flex;"><span>d<span style="color:#000;font-weight:bold">:</span>
-</span></span><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>git commit <span style="color:#000;font-weight:bold">-</span>m <span style="color:#d14">&#34;更新了博客&#34;</span>
-</span></span><span style="display:flex;"><span>git push <span style="color:#000;font-weight:bold">-</span>u origin master
-</span></span></code></pre></div><p>会自动action并发布到静态仓库</p>
-<p>完成，等待自动更新即可~</p>
-<h2 id="3鸣谢">3、鸣谢~</h2>
-<p><strong>感谢老婆的大力支持，赚钱养我，并且不介意我搞这些没用的东西~</strong></p>
-<p><img src="http://n.sinaimg.cn/sinacn11/65/w439h426/20180327/d795-fysqfnh2721649.jpg" alt="image"></p>
-<p><strong>另外，我真是个天才，哈哈哈哈~</strong></p>
+    <p>我的博客正式建立。</p>
+<p>这是我的第一个博客，感谢免费提供开源模板的大神：</p>
+<p><a href="https://zburu.com">子舒</a></p>
+<p>愿世界和平。</p>
 
   </div>
 
