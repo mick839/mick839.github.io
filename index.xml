@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mick的博客</title>
+    <link>/</link>
+    <description>Recent content on mick的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>今天把域名用上</title>
+      <link>/blog/1.html/</link>
+      <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/1.html/</guid>
+      <description>博客上传到github，并且绑定域名：mick.wtf 果然是个骚包的域名（博主）</description>
+    </item>
+    
+    <item>
+      <title>hello, world</title>
+      <link>/blog/1.html/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/1.html/</guid>
+      <description>我的博客正式建立。 这是我的第一个博客，感谢免费提供开源模板的大神： 子舒 愿世界和平。</description>
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>经过脚本统计，我已经写了 篇文章，总共 个字。 RSS订阅流: https://mick.wtf/index.xml 1. 个人说明 我是米克。 base深圳，愿世界和平。 Github: https://github.com/mick839 仓库: https://github.com/mick839/hugo-blog E-mail: tommick839@gmail.com 2. 博客日志 2023-05-25: 新主题 hugo-themes-meteor 正式上线。 3. 友情链接 有时候就会遇到一些文章写的不错的博主，于</description>
+    </item>
+    
+    <item>
+      <title>实验室</title>
+      <link>/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lab/</guid>
+      <description>记录我订阅的周刊，质量不错，内容挺有意思。如果你有推荐，欢迎在评论区分享。 (以下排名不分先后，仅以记录的先后顺序。) 周刊 1. DecoHack周刊 https://decohack.zhubai.love/ 为独立创造者提供独立见解，帮助你发现新产品方向，启动和完</description>
+    </item>
+    
+    <item>
+      <title>搜索</title>
+      <link>/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>留言</title>
+      <link>/message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/message/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
