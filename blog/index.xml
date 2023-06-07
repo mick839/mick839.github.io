@@ -13,7 +13,7 @@
       <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>/blog/1.html/</guid>
-      <description>博客上传到github，并且绑定域名：mick.wtf 果然是个骚包的域名（博主）</description>
+      <description>##1、博客上传到github，并且绑定域名：mick.wtf ##2、开启自动部署，步骤如下： ###（1）本地修改文件，如增加、修改博客，或修改前端代码 ###（2）push，代码如下： cd d:/hugo-blog git add . git commit -m</description>
     </item>
     
     <item>
