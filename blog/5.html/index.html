@@ -103,18 +103,18 @@
   <div class="post-content markdown-body" id="post-content">
     
     <p>家里有个NAS，为防止以后出现NAS坏了却读不出数据的情况，提前想好办法：</p>
-<p>如何在 Windows 下读取 NAS 盘数据
-NAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是再买一台 NAS，但作为一个喜欢研究问题的技术宅，这个方法显然不能满足我，于是就有了以下的内容。将 NAS 里面的硬盘取出来后，接上移动硬盘盒，插入 Windows 系统的电脑弹出对话框要求我格式化，话说这里千万不能点格式化哦，否则一切都完了，我淡定地点了取消。
-<img src="https://pic4.zhimg.com/80/v2-ec05101881a99e1ea8ddfbb1eab38283_720w.webp" alt="image">
-按道理说，Ext4 是 Linux 系统的磁盘格式，那么可以读取 Ext4 分区的软件应该就能派上用场，但遗憾的是楼主尝试了包括 DiskGenius、Ext2Fsd、Ext2explore 在内的几款软件都无法读取 NAS 硬盘内的内容，最后甚至还尝试将 Ubuntu 桌面版系统写入到U盘启动电脑试图读取硬盘内的数据最后还是以失败告终。然而皇天不负有心人，楼主在即将要放弃的时候发现 UFS Explorer 这款软件好使，NAS 盘的所有分区都能正确识别出来。
-<img src="https://pic2.zhimg.com/80/v2-c15f2bb79e5efdfa17d1e105d6d78471_720w.webp" alt="image">
-在 UFS Explorer 软件中顺利找到了硬盘中的数据。
-<img src="https://pic4.zhimg.com/80/v2-36e429f33d023a8e0dee9181f8861113_720w.webp" alt="image">
-<img src="https://pic3.zhimg.com/80/v2-f749d560e407af4a653bb92408fc81ea_720w.webp" alt="image">
-接下来成功将 NAS 硬盘中的数据恢复到本地磁盘，速度跟平常复制粘贴差不多。
-<img src="https://pic4.zhimg.com/80/v2-cee99474cd578a471c9bffec8681ddff_720w.webp" alt="image">
-<img src="https://pic2.zhimg.com/80/v2-21f66e6a08d6db0beb506ee6fbcc8731_720w.webp" alt="image">
-至此，Windows 下读取 NAS 盘数据的研究在经历多次失败以后终算大功告成，如今假如 NAS 坏了也无需担心数据无法找回了。</p>
+<p>如何在 Windows 下读取 NAS 盘数据</p>
+<p>NAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是再买一台 NAS，但作为一个喜欢研究问题的技术宅，这个方法显然不能满足我，于是就有了以下的内容。将 NAS 里面的硬盘取出来后，接上移动硬盘盒，插入 Windows 系统的电脑弹出对话框要求我格式化，话说这里千万不能点格式化哦，否则一切都完了，我淡定地点了取消。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-ec05101881a99e1ea8ddfbb1eab38283_720w.webp" alt="image"></p>
+<p>按道理说，Ext4 是 Linux 系统的磁盘格式，那么可以读取 Ext4 分区的软件应该就能派上用场，但遗憾的是楼主尝试了包括 DiskGenius、Ext2Fsd、Ext2explore 在内的几款软件都无法读取 NAS 硬盘内的内容，最后甚至还尝试将 Ubuntu 桌面版系统写入到U盘启动电脑试图读取硬盘内的数据最后还是以失败告终。然而皇天不负有心人，楼主在即将要放弃的时候发现 UFS Explorer 这款软件好使，NAS 盘的所有分区都能正确识别出来。</p>
+<p><img src="https://pic2.zhimg.com/80/v2-c15f2bb79e5efdfa17d1e105d6d78471_720w.webp" alt="image"></p>
+<p>在 UFS Explorer 软件中顺利找到了硬盘中的数据。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-36e429f33d023a8e0dee9181f8861113_720w.webp" alt="image"></p>
+<p><img src="https://pic3.zhimg.com/80/v2-f749d560e407af4a653bb92408fc81ea_720w.webp" alt="image"></p>
+<p>接下来成功将 NAS 硬盘中的数据恢复到本地磁盘，速度跟平常复制粘贴差不多。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-cee99474cd578a471c9bffec8681ddff_720w.webp" alt="image"></p>
+<p><img src="https://pic2.zhimg.com/80/v2-21f66e6a08d6db0beb506ee6fbcc8731_720w.webp" alt="image"></p>
+<p>至此，Windows 下读取 NAS 盘数据的研究在经历多次失败以后终算大功告成，如今假如 NAS 坏了也无需担心数据无法找回了。</p>
 
   </div>
 
