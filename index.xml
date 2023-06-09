@@ -6,7 +6,16 @@
     <description>Recent content on mick的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Jun 2023 09:40:00 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 19:40:00 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何在 Windows 下读取 NAS 盘数据</title>
+      <link>/blog/5.html/</link>
+      <pubDate>Fri, 09 Jun 2023 19:40:00 +0800</pubDate>
+      
+      <guid>/blog/5.html/</guid>
+      <description>家里有个NAS，为防止以后出现NAS坏了却读不出数据的情况，提前想好办法： 如何在 Windows 下读取 NAS 盘数据 NAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是</description>
+    </item>
+    
     <item>
       <title>攻略：如何抢老公的被子</title>
       <link>/blog/4.html/</link>
