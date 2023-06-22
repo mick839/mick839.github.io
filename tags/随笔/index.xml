@@ -6,7 +6,16 @@
     <description>Recent content in 随笔 on mick的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jun 2023 19:40:00 +0800</lastBuildDate><atom:link href="/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 23:40:00 +0800</lastBuildDate><atom:link href="/tags/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vercel是最强的免费服务器</title>
+      <link>/blog/6.html/</link>
+      <pubDate>Fri, 09 Jun 2023 23:40:00 +0800</pubDate>
+      
+      <guid>/blog/6.html/</guid>
+      <description>博客本来是部署到github.io的，但国内似乎经常访问不了，尤其是微信直接屏蔽了。 决定换部署到vercel试试。 在此之前，部署的chatgpt打了头阵，国内访问速度非常快。 vercel真乃良心网站。</description>
+    </item>
+    
     <item>
       <title>如何在 Windows 下读取 NAS 盘数据</title>
       <link>/blog/5.html/</link>
