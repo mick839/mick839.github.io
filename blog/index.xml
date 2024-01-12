@@ -6,60 +6,49 @@
     <description>Recent content in Blogs on mick的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Jun 2023 23:40:00 +0800</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 23:40:00 +0800</lastBuildDate>
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vercel是最强的免费服务器</title>
       <link>/blog/6.html/</link>
       <pubDate>Fri, 09 Jun 2023 23:40:00 +0800</pubDate>
-      
       <guid>/blog/6.html/</guid>
       <description>博客本来是部署到github.io的，但国内似乎经常访问不了，尤其是微信直接屏蔽了。 决定换部署到vercel试试。 在此之前，部署的chatgpt打了头阵，国内访问速度非常快。 vercel真乃良心网站。</description>
     </item>
-    
     <item>
       <title>如何在 Windows 下读取 NAS 盘数据</title>
       <link>/blog/5.html/</link>
       <pubDate>Fri, 09 Jun 2023 19:40:00 +0800</pubDate>
-      
       <guid>/blog/5.html/</guid>
       <description>家里有个NAS，为防止以后出现NAS坏了却读不出数据的情况，提前想好办法： 如何在 Windows 下读取 NAS 盘数据 NAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是</description>
     </item>
-    
     <item>
       <title>攻略：如何抢老公的被子</title>
       <link>/blog/4.html/</link>
       <pubDate>Thu, 08 Jun 2023 09:40:00 +0800</pubDate>
-      
       <guid>/blog/4.html/</guid>
       <description>第一步：把自己被子踢下床 第二步：抢老公被子 第三步：（关键）终极必杀：把老公也踢下床 阿西吧！~</description>
     </item>
-    
     <item>
       <title>有时候，会买到一些没用的东西，这次是SD卡</title>
       <link>/blog/3.html/</link>
       <pubDate>Wed, 07 Jun 2023 21:40:00 +0800</pubDate>
-      
       <guid>/blog/3.html/</guid>
       <description>兴冲冲地买了一张1T的SD卡，本来是想替换swtich里的512G，这样可以玩更多的游戏 可是……收到卡之后，发现switch原来的卡里面有很多文件，细看发现是“大气层虚拟系统”的文件 这就麻烦了，自己要</description>
     </item>
-    
     <item>
       <title>成功自动部署！</title>
       <link>/blog/2.html/</link>
       <pubDate>Wed, 07 Jun 2023 16:00:00 +0800</pubDate>
-      
       <guid>/blog/2.html/</guid>
       <description>1、博客上传到github，并且绑定域名 静态博客仓库：https://github.com/mick839/mick839.github.io hugo-blog文件更新仓库：https://githu</description>
     </item>
-    
     <item>
       <title>hello, world</title>
       <link>/blog/1.html/</link>
       <pubDate>Tue, 06 Jun 2023 21:00:00 +0800</pubDate>
-      
       <guid>/blog/1.html/</guid>
       <description>我的博客正式建立。 这是我的第一个博客，感谢免费提供开源模板的大神： 子舒 愿世界和平。</description>
     </item>
-    
   </channel>
 </rss>
