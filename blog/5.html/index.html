@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
 <meta charset="utf-8" />
-<meta name="generator" content="Hugo 0.133.1">
+<meta name="generator" content="Hugo 0.134.0">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="toTop" content="true">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,7 +22,7 @@
 "articleSection" : "blog",
 "name" : "如何在 Windows 下读取 NAS 盘数据",
 "headline" : "如何在 Windows 下读取 NAS 盘数据",
-"description" : "家里有个NAS，为防止以后出现NAS坏了却读不出数据的情况，提前想好办法： 如何在 Windows 下读取 NAS 盘数据 NAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是",
+"description" : "家里有个NAS，为防止以后出现NAS坏了却读不出数据的情况，提前想好办法：\n如何在 Windows 下读取 NAS 盘数据\nNAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是再买一台 NAS，但作为一个喜欢研究问题的技术宅，这个方法显然不能满足我，于是就有了以下的内容。将 NAS 里面的硬盘取出来后，接上移动硬盘盒，插入 Windows 系统的电脑弹出对话框要求我格式化，话说这里千万不能点格式化哦，否则一切都完了，我淡定地点了取消。\n",
 "inLanguage" : "en-US",
 "author" : "",
 "creator" : "",
@@ -38,8 +38,14 @@
 </script><title>如何在 Windows 下读取 NAS 盘数据@mick</title>
 <meta property="og:title" content="如何在 Windows 下读取 NAS 盘数据" />
 <meta property="og:type" content="article" />
-<meta property="og:description" content="家里有个NAS，为防止以后出现NAS坏了却读不出数据的情况，提前想好办法： 如何在 Windows 下读取 NAS 盘数据 NAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是" />
-<meta name="description" content="家里有个NAS，为防止以后出现NAS坏了却读不出数据的情况，提前想好办法： 如何在 Windows 下读取 NAS 盘数据 NAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是" />
+<meta property="og:description" content="家里有个NAS，为防止以后出现NAS坏了却读不出数据的情况，提前想好办法：
+如何在 Windows 下读取 NAS 盘数据
+NAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是再买一台 NAS，但作为一个喜欢研究问题的技术宅，这个方法显然不能满足我，于是就有了以下的内容。将 NAS 里面的硬盘取出来后，接上移动硬盘盒，插入 Windows 系统的电脑弹出对话框要求我格式化，话说这里千万不能点格式化哦，否则一切都完了，我淡定地点了取消。
+" />
+<meta name="description" content="家里有个NAS，为防止以后出现NAS坏了却读不出数据的情况，提前想好办法：
+如何在 Windows 下读取 NAS 盘数据
+NAS 中的硬盘是 Ext4 格式而并非我们常见的 NTFS 或 FAT32 分区，那假如有一天 NAS 坏了的话里面的数据怎么办？最简单的方法肯定是再买一台 NAS，但作为一个喜欢研究问题的技术宅，这个方法显然不能满足我，于是就有了以下的内容。将 NAS 里面的硬盘取出来后，接上移动硬盘盒，插入 Windows 系统的电脑弹出对话框要求我格式化，话说这里千万不能点格式化哦，否则一切都完了，我淡定地点了取消。
+" />
 <meta property="og:locale" content="en-us" /><meta property="og:image" content="https://cdn.icon-icons.com/icons2/2622/PNG/512/lemon_icon_158326.png" />
 
 <link rel="stylesheet" href="/css/github-markdown.css">
